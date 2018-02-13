@@ -1,0 +1,4 @@
+#!/bin/bash
+cp -r SmallerCleanerHosts/ SmallerCleanerHosts4/ ;cd SmallerCleanerHosts3/ ; python preprocess.py BigHostnotC_.10feb2338fna .fna ; ssh mutant12; 
+#date; cd /linuxhome/tmp/divyae/cleanAgain; cp ~divyae/divyae2/HOSTS/UniqueIdentifiers/SmallerCleanerHosts3/BigScHost_again.fna . ; date; makeblastdb -in BigScHost_again.fna -dbtype nucl ; date ; blastn -query 26200428Mod.fasta -db BigScHost_again.fna -num_threads 24 -evalue 0.01 -max_target_seqs 1000 -outfmt "6 qseqid sseqid qlen slen length score evalue bitscore positive gapopen gaps ppos qstart qend sstart send" > 1BOP_ScH_again.tsv ; date; date; blastn -query 27654921Mod.fasta -db BigScHost_again.fna -num_threads 24 -evalue 0.01 -max_target_seqs 1000 -outfmt "6 qseqid sseqid qlen slen length score evalue bitscore positive gapopen gaps ppos qstart qend sstart send" > 2BOP_ScH_again.tsv ; date; date; 
+
