@@ -1,7 +1,0 @@
-out_Out.1000951.3.fna_kmer_1.tsv
-out_Out.1000951.3.fna_kmer_1.tsv
-out_Out.1000951.3.fna_kmer_1.tsv
-out_Out.1000951.3.fna_kmer_1.tsv
-out_Out.1000952.3.fna_kmer_1.tsv
-out_Out.1000951.3.fna_kmer_1.tsv
-out_Out.1000951.3.fna_kmer_1.tsv
